@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     led.unplot(pos_X, pos_Y)
     pos_X += 1
-    if (pos_Y >= 4) {
+    if (pos_Y >= 5) {
         pos_X = 0
     }
     led.plot(pos_X, pos_Y)
