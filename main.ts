@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     led.unplot(pos_X, pos_Y)
-    pos_X += 1
+    pos_X += -1
     if (pos_X <= -1) {
         pos_X = 4
     }
